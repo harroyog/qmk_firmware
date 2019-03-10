@@ -17,6 +17,9 @@
 #undef PERMISSIVE_HOLD
 #undef PREVENT_STUCK_MODIFIERS
 
+
+#define GRAVE_ESC_CTRL_OVERRIDE
+
 // term between a tap and a hold
 #ifdef TAPPING_TERM
 #undef TAPPING_TERM
@@ -38,7 +41,6 @@
 
 #ifndef USERSPACE
 #define USERSPACE
-
 
 
 
